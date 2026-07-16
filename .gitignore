@@ -1,0 +1,14 @@
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+node_modules/
+package-lock.json
+
+diseños-referencia/
+
+*:Zone.Identifier
