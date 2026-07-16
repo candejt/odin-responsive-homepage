@@ -48,11 +48,13 @@ header p {
 h2 {
   font-size: 2.5rem;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .hero-vertical {
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
   width: 90%;
+  margin: 0 auto 20px auto;
 }
 
 main {
@@ -68,7 +70,7 @@ footer {
   margin: 20px;
 }
 
-.footer-banner {
+.footer-img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -132,4 +134,101 @@ h4 {
 .project-links a {
   display: inline-block;
   width: 25px;
+}
+.contact-icon {
+  display: none;
+}
+.about-card {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 20px 20px;
+    margin-top: 60px;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 50%;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .footer-img {
+    flex: 1 1 50%;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+    max-height: 400px;
+  }
+  .contact-info h2 {
+    text-align: left;
+  }
+  .social-links {
+    justify-content: flex-start;
+  }
+  .contact-icon {
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  header {
+    padding: 80px 40px 60px 40px;
+    position: relative;
+  }
+  header h1 {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color: white;
+    text-align: right;
+    margin: 0;
+    z-index: 10;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .about-card {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 100px;
+    position: relative;
+    border: 1.5px solid white;
+    background: transparent;
+    border-radius: 5px;
+  }
+  .about-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    padding-top: 20px;
+  }
+  .hero-vertical {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: -140px;
+    margin-left: -40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  h1 .break-mobile {
+    display: none;
+  }
+  header .social-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
 }
