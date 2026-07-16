@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(169, 56, 4, 0.234);
+}
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  margin: 20px;
+}
+
+header h1 {
+  position: absolute;
+  bottom: 550px;
+  left: 20px;
+  color: white;
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 4.5rem;
+  font-weight: lighter;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  padding-left: 5px;
+  color: rgb(58, 58, 58);
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.hero-vertical {
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  width: 90%;
+}
+
+main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.footer-banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+h3,
+h4 {
+  font-weight: lighter;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.social-links a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+.contact-info h2 {
+  text-align: center;
+  width: 100%;
+}
+.project-card {
+  margin-top: 20px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.project-card h2 {
+  margin-top: 0;
+}
+
+.description-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.description-card p {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.project-links a {
+  display: inline-block;
+  width: 25px;
+}
